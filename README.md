@@ -7,7 +7,7 @@ Evaluation and comparison of models for the purpose of sentiment analysis over t
 - [Methodology](#methodology)
 - Results
 
-<a name="introduction"/>
+<a name="introduction"></a>
 # Introduction
 <p align="justify">
 Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) technique used to determine the sentiment or emotion expressed in a piece of text. In this project, we perform sentiment analysis on the Sentiment140 dataset, which is a collection of 1.6 million tweets labeled as positive or negative.
@@ -21,7 +21,7 @@ Sentiment analysis, also known as opinion mining, is a natural language processi
 The goal here is to build and evaluate models that can accurately classify the sentiment of tweets. To achieve this, we will preprocess the data, experiment with various machine learning algorithms, and evaluate their performance using standard metrics. This project provides insights into the challenges and methodologies of sentiment analysis, and the results can be applied to real-world scenarios where understanding public sentiment is crucial.  
 </p>
 
-<a name="dataset"/>
+<a name="dataset"/></a>
 # Dataset
 <p align="justify"><a href="https://www.kaggle.com/datasets/kazanova/sentiment140">Sentiment140</a> is a widely used dataset for sentiment analysis tasks, particularly for social media text. It was created by Alec Go, Richa Bhayani, and Lei Huang and is designed to facilitate the training and evaluation of sentiment analysis models. The dataset is composed of 1.6 million tweets, each labeled as either positive or negative based on the presence of emoticons.</p>
 
@@ -55,6 +55,6 @@ Before using the dataset for training and evaluation, several preprocessing step
 - **Lemmatization**: Lemmatization is applied to reduce words to their base or dictionary form.
 </p>
 
-<a name="methodology"/>
+<a name="methodology"/></a>
 ## Methodology
 
