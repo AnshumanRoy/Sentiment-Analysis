@@ -1,5 +1,5 @@
 # Tweet Sentiment Analysis
-Evaluation and comparison of models for the purpose of sentiment analysis over the Sentiment140 dataset.
+Evaluation and comparison of models for the purpose of sentiment analysis over the Sentiment140 dataset. The notebook can be viewed [here](https://colab.research.google.com/drive/1Kr0VB0ZP_FsHhhmqFOws1qU2r1IBe0SI?usp=sharing).
 
 # Table of Contents
 - [Introduction](#introduction)
