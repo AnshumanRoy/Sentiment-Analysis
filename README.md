@@ -4,27 +4,24 @@ Evaluation and comparison of models for the purpose of sentiment analysis over t
 # Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- Methodology
+- [Methodology](#methodology)
 - Results
 
+<a name="introduction"/>
 # Introduction
-<div align="justify">
-<p>
+<p align="justify">
 Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) technique used to determine the sentiment or emotion expressed in a piece of text. In this project, we perform sentiment analysis on the Sentiment140 dataset, which is a collection of 1.6 million tweets labeled as positive or negative.
 </p>
-<p>
 
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <img src="https://github.com/AnshumanRoy/Sentiment-Analysis/assets/56593553/557ada08-e4de-45b4-a675-3a059d8a4aaf" alt="First Image" style="align: left; width: 48%;"/>
-  <img src="https://github.com/AnshumanRoy/Sentiment-Analysis/assets/56593553/89127e79-e414-4d71-8748-af430274a8fa" alt="Second Image" style="align: right; width: 48%;"/>
-</div>
+| Positive Sentiment Word Cloud              | Negative Sentiment Word Cloud               |
+| ---------------------- | ---------------------- |
+| ![cat](https://github.com/AnshumanRoy/Sentiment-Analysis/assets/56593553/d2cb50a8-a37f-4023-99e4-6bbf26112ddb) | ![dog](https://github.com/AnshumanRoy/Sentiment-Analysis/assets/56593553/7a5fee52-2a38-4c4f-ad8d-634c953da734) |
 
-</p>
-<p>
+<p align="justify">
 The goal here is to build and evaluate models that can accurately classify the sentiment of tweets. To achieve this, we will preprocess the data, experiment with various machine learning algorithms, and evaluate their performance using standard metrics. This project provides insights into the challenges and methodologies of sentiment analysis, and the results can be applied to real-world scenarios where understanding public sentiment is crucial.  
 </p>
-</div>
 
+<a name="dataset"/>
 # Dataset
 <p align="justify"><a href="https://www.kaggle.com/datasets/kazanova/sentiment140">Sentiment140</a> is a widely used dataset for sentiment analysis tasks, particularly for social media text. It was created by Alec Go, Richa Bhayani, and Lei Huang and is designed to facilitate the training and evaluation of sentiment analysis models. The dataset is composed of 1.6 million tweets, each labeled as either positive or negative based on the presence of emoticons.</p>
 
@@ -58,5 +55,6 @@ Before using the dataset for training and evaluation, several preprocessing step
 - **Lemmatization**: Lemmatization is applied to reduce words to their base or dictionary form.
 </p>
 
+<a name="methodology"/>
 ## Methodology
 
